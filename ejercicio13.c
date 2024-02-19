@@ -5,6 +5,8 @@
 - Autor. Ing(c) Yigal Fabricio Rojas Acevedo
 - Nombre del lenguaje utilizado : C
 - Versión del lenguaje utilizado : C11
+- Compilador Utilizado : GCC
+- Version del Compilador utilizado : 4.7.1
 - Presentado a: Doctor Ricardo Moreno Laverde
 - Universidad Tecnológica de Pereira
 - Programa de Ingeniería de Sistemas y Computación
@@ -21,7 +23,7 @@ int main()
 	
 	printf("Por favor Digite el valor que le quiere asignar a x: "); // Solicito ingresar un valor para x
 	scanf("%f",&x); //asigno el input a la variable x
-	printf("\nEl resultado de la ecuacion para un valor de %f es de %.5f",x ,( x*1/2 + 25 )/ ( sqrt(169)/sqrt(144) + sqrt(x)/x )  ); // imprimo por pantalla un mesanje con el resultado
+	printf("\nEl resultado de la ecuacion para un valor de %f es de %.5f",x ,( x*1/2 + 25 )/ ( sqrt(169)/sqrt(144) + sqrt(x)/x )  ); // imprimo por pantalla un mensanje con el resultado
     
 	return 0;
 }

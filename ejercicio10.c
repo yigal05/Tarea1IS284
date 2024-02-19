@@ -4,11 +4,16 @@
 - Versión de su código: 1.0
 - Autor. Ing(c) Yigal Fabricio Rojas Acevedo
 - Nombre del lenguaje utilizado : C
-- Versión del lenguaje utilizado
+- Versión del lenguaje utilizado : C11
+- Compilador Utilizado : GCC
+- Version del Compilador utilizado : 4.7.1
 - Presentado a: Doctor Ricardo Moreno Laverde
 - Universidad Tecnológica de Pereira
 - Programa de Ingeniería de Sistemas y Computación
 - Este programa lee mph(millas por hora) y los convierte a m/s
+- Salvedad: El segundo diseño de pantalla presenta un error en 
+ su conversion, por ende este programa no dara ese valor y en su
+ lugar imprimira la conversion correcta 
 
 */
 

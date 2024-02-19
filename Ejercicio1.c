@@ -5,6 +5,8 @@
 - Autor. Ing(c) Yigal Fabricio Rojas Acevedo
 - Nombre del lenguaje utilizado : C 
 - Versión del lenguaje utilizado : C11
+- Compilador Utilizado : GCC
+- Version del Compilador utilizado : 4.7.1
 - Presentado a: Doctor Ricardo Moreno Laverde
 - Universidad Tecnológica de Pereira
 - Programa de Ingeniería de Sistemas y Computación
@@ -18,11 +20,11 @@
 
 int main()
 {
-    float centigrados = 0.; // creo la variable que guardara los centigrados
+    float celsius = 0.; // creo la variable que guardara los centigrados
     
-    printf("Por favor digite los centigrados a convertir a Farenheit: "); // Solicito ingresar un valor para centrigrados
-    scanf("%f",&centigrados); //asigno el input a la variable centigrados
-    printf("\n%.0f°C son %0.1f grados Fahrenheit" , centigrados, 1.8*centigrados+32); // imprimo por pantalla un mesanje con el resultado
+    printf("Por favor digite los centigrados a convertir a Farenheit: "); // Solicito ingresar un valor para celsius
+    scanf("%f",&celsius); //asigno el input a la variable centigrados
+    printf("\n%.0f°C son %0.1f grados Fahrenheit" , celsius, 1.8*celsius+32); // imprimo por pantalla un mesanje con el resultado
 
     return 0;
 }

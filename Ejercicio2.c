@@ -5,10 +5,12 @@
 - Autor. Ing(c) Yigal Fabricio Rojas Acevedo
 - Nombre del lenguaje utilizado : C
 - Versión del lenguaje utilizado : C11
+- Compilador Utilizado : GCC
+- Version del Compilador utilizado : 4.7.1
 - Presentado a: Doctor Ricardo Moreno Laverde
 - Universidad Tecnológica de Pereira
 - Programa de Ingeniería de Sistemas y Computación
-- Este programa calcula el vulumen de una esfera a partir de su radio
+- Este programa calcula el volumen de una esfera a partir de su radio
 
 */
 
